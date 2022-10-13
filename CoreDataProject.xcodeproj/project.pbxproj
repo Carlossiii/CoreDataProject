@@ -11,6 +11,8 @@
 		672208DE28F8757B007E0FAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672208DD28F8757B007E0FAC /* ContentView.swift */; };
 		672208E028F8757D007E0FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672208DF28F8757D007E0FAC /* Assets.xcassets */; };
 		672208E328F8757D007E0FAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672208E228F8757D007E0FAC /* Preview Assets.xcassets */; };
+		672208EA28F876C1007E0FAC /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672208E928F876C1007E0FAC /* user.swift */; };
+		672208EC28F877B9007E0FAC /* friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672208EB28F877B9007E0FAC /* friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		672208DD28F8757B007E0FAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		672208DF28F8757D007E0FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		672208E228F8757D007E0FAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		672208E928F876C1007E0FAC /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		672208EB28F877B9007E0FAC /* friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				672208DB28F8757B007E0FAC /* CoreDataProjectApp.swift */,
 				672208DD28F8757B007E0FAC /* ContentView.swift */,
+				672208E928F876C1007E0FAC /* user.swift */,
+				672208EB28F877B9007E0FAC /* friend.swift */,
 				672208DF28F8757D007E0FAC /* Assets.xcassets */,
 				672208E128F8757D007E0FAC /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				672208DE28F8757B007E0FAC /* ContentView.swift in Sources */,
 				672208DC28F8757B007E0FAC /* CoreDataProjectApp.swift in Sources */,
+				672208EA28F876C1007E0FAC /* user.swift in Sources */,
+				672208EC28F877B9007E0FAC /* friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
