@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var users = [User]()
+    @State private var user = [User]()
     
     var body: some View {
         NavigationView {
-            List(users) { user in
+            List(user) { user in
                 NavigationLink {
-                    Text(user.name)
+                    UserDetailedView(user: user)
                 } label: {
                     HStack {
                         Circle()
@@ -32,7 +32,7 @@ struct ContentView: View {
         }
     }
     func loadData() async {
-        guard users.isEmpty else { return }
+        guard user.isEmpty else { return }
         
         do {
             let url = URL(string: "https://www.hackingwithswift.com/samples/friendface.json")!
@@ -40,7 +40,7 @@ struct ContentView: View {
             
             let decoder = JSONDecoder()
             decoder.dateDecodingStrategy = .iso8601
-            users = try decoder.decode([User].self, from: data)
+            user = try decoder.decode([User].self, from: data)
         } catch {
             print("Donwload failed!")
         }
